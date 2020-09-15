@@ -1,0 +1,54 @@
+$hp: 30px;
+$vp: 20px;
+
+$brand-bg: #000000;
+$brand-color: #ffffff;
+
+$btn-signup-bg: #000000;
+$btn-login-bg: transparent;
+
+.navbarContainer {
+  padding: $vp 0px;
+  position: absolute;
+  top:0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 999;
+  .brand {
+    text-align: center;
+    background: $brand-bg;
+    padding: 5px 10px;
+    color: $brand-color;
+    font-size: 1.5rem;
+    width: 250px;
+  }
+
+  .userActionsContainer {
+    display: flex;
+    margin-right: 100px;
+
+    .btn {
+      font-size: 1.2rem;
+
+      &.login {
+        background: $btn-signup-bg;
+        color: #ffffff;
+        background: $btn-login-bg;
+        border: none;
+        padding: 5px 10px;
+        margin-right: 15px;
+      }
+      &.signup {
+        background: $btn-signup-bg;
+        color: #ffffff;
+        border: none;
+        border-radius: 25px;
+
+        padding: 10px 20px;
+      }
+    }
+  }
+}

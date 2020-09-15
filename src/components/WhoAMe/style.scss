@@ -1,0 +1,44 @@
+.whoameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .clipPath {
+    background: url("../../assets/images/me.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    min-width: 600px;
+    clip-path: polygon(0% 0%, 70% 0%, 100% 37%, 100% 62%, 74% 100%, 0% 100%);
+  }
+  .textWhoAme {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-right: 180px;
+    
+
+    .hello{
+      font-size:6rem
+    }
+    .fedeNowback{
+      background:#000000;
+      width: 400px;
+      color:#FFFFFF;
+      font-size: 2rem;
+      //text-align: right;
+      padding: 5px 10px;
+      margin-left: -100px;
+      padding-left: 100px;
+      z-index:999;
+    }
+    .textWhoame{
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+
+
+  }
+}

@@ -1,0 +1,32 @@
+.yourImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .titleSection {
+    color: #e64041;
+    font-size: 3rem;
+    font-weight: 800;
+    height: 100px;
+  }
+
+  .videoContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;    
+    width: 100%;
+    height: 500px;
+    .clipPath {
+      position: absolute;
+      top: 100px;
+      right: 0;
+      clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+      background-color: grey;
+      height: 75%;
+      width: 60%;
+      z-index: -1;
+    }
+  }
+}

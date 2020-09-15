@@ -1,0 +1,21 @@
+.getCourseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .getCourse {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #e64041;
+    color: #ffffff;
+    box-shadow: 0 0 10px black;
+    transition: all 0.2s ease-out;
+  }
+
+  .getCourse:hover {
+    background-color: black;
+    border: 2px solid #e64041;
+    box-shadow: 0 0 10px #e64041;
+  }
+}

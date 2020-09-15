@@ -1,0 +1,53 @@
+.courseContentWrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  .courseContentContainer {
+    display: flex;
+    width: 100%;
+
+    .decorationContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      flex-basis: 20%;
+      clip-path: polygon(0% 0%, 71% 0%, 100% 35%, 100% 64%, 72% 100%, 0% 99%);
+      background: black;
+      height: 300px;
+    }
+
+    .courseInfoContainer {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 40%;
+      margin-left: 1rem;
+      padding-left: 1rem;
+
+      .courseTitle {
+        font-size: 2.2rem;
+        font-weight: 800;
+        padding-bottom: 20px;
+      }
+      .courseItems {
+        font-size: 1.3rem;
+
+        .itemCourse {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-bottom: 20px;
+          .liItem {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+ul {
+  all: unset;
+}

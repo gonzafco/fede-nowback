@@ -1,0 +1,32 @@
+$hero-text-color: #ffffff;
+
+.heroContainer {
+  display: flex;
+  height: 100vh;
+  background: url("../../assets/images/hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .heroTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    
+    .heroTitle {
+      font-size: 3rem;
+      color: $hero-text-color;
+      font-weight: 600;
+    }
+    .heroText {
+      font-size: 2rem;
+      color: $hero-text-color;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+$hp: 30px;
+$vp: 20px;
+
+$brand-bg: #000000;
+$brand-color: #ffffff;
+
+$btn-signup-bg: #000000;
+$btn-login-bg: transparent;
+
+.makingBrandContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .sectionDecoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #e64041;
+    max-width: 35%;
+    clip-path: polygon(0% 0%, 71% 0%, 100% 35%, 100% 64%, 72% 100%, 0% 99%);
+    .image{
+      padding: 50px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .textContainer {
+    display: flex;
+    //height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 700px;
+    
+
+    .makingBrandTitle{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .makingBrandText {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+    }
+  }
+}
+//clip-path: polygon(0% 0%, 71% 0%, 100% 35%, 100% 64%, 72% 100%, 0% 99%);

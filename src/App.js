@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import MakingBrand from "./components/MakingBrand";
+import Separator from "./components/Separator";
+import WhoAMe from "./components/WhoAMe";
+import GetCourse from "./components/GetCourse";
+import YourImage from "./components/YourImage";
+import CourseContent from "./components/CourseContent";
+import LastCourses from "./components/LastCourses";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Hero />
+      <MakingBrand />
+      {/* <Separator /> */}
+      <WhoAMe />
+      <GetCourse />
+      <YourImage />
+      <CourseContent />
+      <LastCourses />
+      <Footer />
     </div>
   );
 }

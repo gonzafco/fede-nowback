@@ -1,0 +1,16 @@
+.footerContainer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .socialContainer {
+    color:#e64041;
+    .icons {
+      padding: 0 10px;
+    }
+  }
+  .fedeNowBack {
+    font-size: 2rem;
+  }
+}

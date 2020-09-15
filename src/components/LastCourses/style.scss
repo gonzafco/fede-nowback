@@ -1,0 +1,46 @@
+.lastCoursesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  .sectionTitle {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+
+    .imgContainer {
+      width: calc((100% / 4) - 40px);
+      height: auto;
+      margin: 10px;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 0 0 10px black;
+      transition: box-shadow 0.3s ease-out;
+
+      &:hover{
+        box-shadow: 0 0 15px #e64041;
+      }
+    }
+  }
+  .jobsMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .topWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .textMessage {
+        font-size: 3rem;
+        text-align: center;        
+      }
+    }
+    .sign {
+      font-size: 2rem;
+    }
+  }
+}
