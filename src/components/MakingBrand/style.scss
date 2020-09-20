@@ -19,10 +19,9 @@ $btn-login-bg: transparent;
     height: 500px;
     background-color: #e64041;
     width: 35%;
-    clip-path: polygon(0% 0%, 71% 0%, 100% 35%, 100% 64%, 72% 100%, 0% 99%);
+    clip-path: polygon(0% 0%, 70% 0%, 100% 35%, 100% 65%, 70% 100%, 0% 100%);
     .image {
       padding: 50px;
-      width: 100%;
       height: auto;
     }
   }
@@ -40,6 +39,7 @@ $btn-login-bg: transparent;
       font-size: 2.7rem;
       font-weight: 800;
       font-family: "Poppins", sans-serif;
+      text-align: center;
     }
     .makingBrandText {
       font-size: 1.2rem;

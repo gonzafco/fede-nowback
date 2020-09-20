@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-import arrow from "../../assets/images/arrow.png";
 
 export default function Separator() {
   return (
@@ -8,9 +7,10 @@ export default function Separator() {
       <span className="separatorText">
         El diseño de una marca puede potenciar o hundir un proyecto
       </span>
-      <div className="decorationArrowContainer">
-        <img src={arrow}/>
-      </div>
+
+      <div className="decorationArrowLeft"></div>
+      <div className="decorationArrowMiddle"></div>
+      <div className="decorationArrowRight"></div>
     </div>
   );
 }

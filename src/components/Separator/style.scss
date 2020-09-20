@@ -6,11 +6,27 @@
   .separatorText {
     font-size: 1.7rem;
     font-weight: bold;
-    width: 350px;
+    width: 300px;
     text-align: right;
     line-height: 1.9rem;
+    margin-right: 10px;
   }
-  .decorationArrowContainer {
-    width: 50%;
+  .decorationArrowRight {
+    background: #e64041;
+    width: calc(55% - 25%); //712,5
+    height: 60px;
+  }
+  .decorationArrowLeft {
+    background: #e64041;
+    width: calc(5%); //712,5
+    height: 60px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+  .decorationArrowMiddle{
+    background: #e64041;
+    width: calc(5%); //712,5
+    height: 60px;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    margin-right: -1px;
   }
 }

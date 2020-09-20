@@ -17,7 +17,7 @@ function App() {
       <NavBar />
       <Hero />
       <MakingBrand />
-      {/* <Separator /> */}
+      <Separator />
       <WhoAMe />
       <GetCourse />
       <YourImage />
