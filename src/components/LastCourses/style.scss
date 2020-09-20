@@ -1,11 +1,13 @@
 .lastCoursesContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-around;
   .sectionTitle {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 3rem;
+    font-weight: 800;
   }
   .gallery {
     display: flex;
@@ -20,7 +22,7 @@
       box-shadow: 0 0 10px black;
       transition: box-shadow 0.3s ease-out;
 
-      &:hover{
+      &:hover {
         box-shadow: 0 0 15px #e64041;
       }
     }
@@ -30,17 +32,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 40px;
+
     .topWrapper {
       display: flex;
       justify-content: center;
       align-items: center;
       .textMessage {
         font-size: 3rem;
-        text-align: center;        
+        font-weight: 600;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
       }
     }
     .sign {
       font-size: 2rem;
+      letter-spacing: 0.3rem;
+      color: #e64041;
+      font-family: "Poppins", sans-serif;
+      font-style: italic;
     }
   }
 }

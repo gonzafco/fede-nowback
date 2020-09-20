@@ -10,7 +10,7 @@ $btn-login-bg: transparent;
 .navbarContainer {
   padding: $vp 0px;
   position: absolute;
-  top:0;
+  top: 0;
   background: transparent;
   display: flex;
   align-items: center;
@@ -18,23 +18,24 @@ $btn-login-bg: transparent;
   width: 100%;
   z-index: 999;
   .brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
     text-align: center;
     background: $brand-bg;
-    padding: 5px 10px;
     color: $brand-color;
-    font-size: 1.5rem;
-    width: 250px;
+    padding: 0 20px;
   }
 
   .userActionsContainer {
     display: flex;
-    margin-right: 100px;
-
+    margin-right: 50px;
     .btn {
-      font-size: 1.2rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.625rem;
+      font-weight: bold;
+      padding: 0px 10px;
 
       &.login {
-        background: $btn-signup-bg;
         color: #ffffff;
         background: $btn-login-bg;
         border: none;
@@ -45,9 +46,8 @@ $btn-login-bg: transparent;
         background: $btn-signup-bg;
         color: #ffffff;
         border: none;
-        border-radius: 25px;
-
-        padding: 10px 20px;
+        border-radius: 20px;
+        
       }
     }
   }

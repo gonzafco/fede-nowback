@@ -25,9 +25,10 @@ export default function MakingBrand() {
           un mensaje coherente, claro y que refleje los valores del proyecto.
         </p>
         <p className="makingBrandText">
-          En el curso ̈Creatividad para crear una marca ̈ veremos cómo desarrollar
-          la identidad visual de tu proyecto, aprendiendo cual es el concepto
-          que representa nuestra marca y qué elementos potencian la imagen.
+          En el curso "Creatividad para crear una marca" veremos cómo
+          desarrollar la identidad visual de tu proyecto, aprendiendo cual es el
+          concepto que representa nuestra marca y qué elementos potencian la
+          imagen.
         </p>
       </div>
     </section>

@@ -23,16 +23,18 @@
       display: flex;
       flex-direction: column;
       flex-basis: 40%;
-      margin-left: 1rem;
+      margin-left: 2rem;
       padding-left: 1rem;
 
       .courseTitle {
+        font-family: 'Poppins', sans-serif;
         font-size: 2.2rem;
         font-weight: 800;
         padding-bottom: 20px;
       }
       .courseItems {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
 
         .itemCourse {
           display: flex;

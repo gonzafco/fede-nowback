@@ -18,9 +18,9 @@ $btn-login-bg: transparent;
     align-items: center;
     height: 500px;
     background-color: #e64041;
-    max-width: 35%;
+    width: 35%;
     clip-path: polygon(0% 0%, 71% 0%, 100% 35%, 100% 64%, 72% 100%, 0% 99%);
-    .image{
+    .image {
       padding: 50px;
       width: 100%;
       height: auto;
@@ -33,16 +33,20 @@ $btn-login-bg: transparent;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
-    width: 700px;
-    
+    //width: 700px;
+    width: 65%;
 
-    .makingBrandTitle{
-      font-size: 2rem;
-      font-weight: 900;
+    .makingBrandTitle {
+      font-size: 2.7rem;
+      font-weight: 800;
+      font-family: "Poppins", sans-serif;
     }
     .makingBrandText {
       font-size: 1.2rem;
       line-height: 1.7rem;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.03rem;
+      line-height: 1.9rem;
     }
   }
 }

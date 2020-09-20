@@ -9,12 +9,12 @@ export default function Footer() {
 
       <div className="gradientSeparator"></div>
       <div className="socialContainer">
-        <i className="icons">
-          <FontAwesomeIcon size="3x" icon={faFacebook} />
-        </i>
-        <i className="icons">
-          <FontAwesomeIcon size="3x" icon={faInstagram} />
-        </i>
+        <div className="icons">
+          <FontAwesomeIcon size="2x" icon={faFacebook} />
+        </div>
+        <div className="icons">
+          <FontAwesomeIcon size="2x" icon={faInstagram} />
+          </div>
       </div>
       <span className="fedeNowBack">Fede Nowback</span>
     </div>
