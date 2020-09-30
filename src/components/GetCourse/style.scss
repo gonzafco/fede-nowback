@@ -13,10 +13,6 @@
     box-shadow: 0 0 10px black;
     transition: all 0.2s ease-out;
   }
-  &.inner-border {
-    border: 20px solid black;
-    box-shadow: inset 0px 0px 0px 10px red;
-  }
   .getCourse:hover {
     background-color: black;
     box-shadow: 0 0 10px #e64041;

@@ -1,0 +1,12 @@
+.heroLogin{
+  width: 100%;
+  height: 200px;
+  background: url("../../assets/images/heroLogin.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 480px) {
+    height: 100px;
+  }
+}

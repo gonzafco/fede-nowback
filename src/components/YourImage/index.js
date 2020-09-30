@@ -12,8 +12,10 @@ export default function YourImage() {
         <div className="clipPath"></div>
         <ReactPlayer
           className="reactPlayerContainer"
-          width="800px"
-          height="400px"
+          // width="800px"
+          // height="400px"
+          width="100%"
+          height="60%"
           url="https://www.youtube.com/watch?v=OB6eWBiNRz4"
         />
       </div>

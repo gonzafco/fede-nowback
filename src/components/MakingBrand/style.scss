@@ -12,6 +12,10 @@ $btn-login-bg: transparent;
   display: flex;
   align-items: center;
 
+  @media screen and (max-width: 480px) {
+    height: auto;
+  }
+
   .sectionDecoration {
     display: flex;
     justify-content: center;
@@ -24,6 +28,10 @@ $btn-login-bg: transparent;
       padding: 50px;
       height: auto;
     }
+
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
   }
 
   .textContainer {
@@ -35,11 +43,20 @@ $btn-login-bg: transparent;
     //width: 700px;
     width: 65%;
 
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      
+    }
+
     .makingBrandTitle {
       font-size: 2.7rem;
       font-weight: 800;
       font-family: "Poppins", sans-serif;
       text-align: center;
+
+      @media screen and (max-width: 480px) {
+        font-size: 2rem;
+      }
     }
     .makingBrandText {
       font-size: 1.2rem;
@@ -47,6 +64,9 @@ $btn-login-bg: transparent;
       font-family: "Poppins", sans-serif;
       letter-spacing: 0.03rem;
       line-height: 1.9rem;
+      @media screen and (max-width: 480px) {
+        font-size: 1rem;
+      }
     }
   }
 }

@@ -3,6 +3,11 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-around;
+
+  @media screen and (max-width: 480px) {
+    padding: 0px 30px;
+  }
+
   .sectionTitle {
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -13,6 +18,10 @@
     display: flex;
     justify-content: center;
 
+    @media screen and (max-width: 480px) {
+      flex-wrap: wrap;
+    }
+
     .imgContainer {
       width: calc((100% / 4) - 40px);
       height: auto;
@@ -21,6 +30,11 @@
       border-bottom-right-radius: 50px;
       box-shadow: 0 0 10px black;
       transition: box-shadow 0.3s ease-out;
+
+      @media screen and (max-width: 480px) {
+        width: 100%;
+        height: auto;
+      }
 
       &:hover {
         box-shadow: 0 0 15px #e64041;
@@ -34,6 +48,10 @@
     align-items: center;
     padding: 30px 40px;
 
+    @media screen and (max-width: 480px) {
+      padding:30px 30px;
+    }
+
     .topWrapper {
       display: flex;
       justify-content: center;
@@ -43,6 +61,16 @@
         font-weight: 600;
         text-align: center;
         font-family: "Oswald", sans-serif;
+        @media screen and (max-width: 480px) {
+          font-size: 2rem;
+          padding:0px;
+        }
+      }
+
+      .comillas {
+        @media screen and (max-width: 480px) {
+          display: none;
+        }
       }
     }
     .sign {
@@ -51,6 +79,12 @@
       color: #e64041;
       font-family: "Poppins", sans-serif;
       font-style: italic;
+
+      @media screen and (max-width: 480px) {
+        border-top: 1px solid #e64041;
+        margin-top: 10px;
+        text-align: center;
+      }
     }
   }
 }

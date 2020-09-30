@@ -5,19 +5,30 @@
   align-items: center;
   height: 100vh;
 
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+
   .titleSection {
     color: #e64041;
     font-size: 3rem;
     font-weight: 800;
     letter-spacing: 0.4rem;
     height: 100px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      height: auto;
+      font-size: 2rem;
+      text-align: center;
+    }
   }
 
   .videoContainer {
     display: flex;
     justify-content: center;
-    position: relative;    
+    position: relative;
     width: 100%;
     height: 500px;
     .clipPath {
@@ -29,6 +40,18 @@
       height: 75%;
       width: 60%;
       z-index: -1;
+
+      @media screen and (max-width: 480px) {
+        top:10px;
+        height: 500px;
+        width: 300px;
+        clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 50%);
+        
+      }
+    }
+    @media screen and (max-width: 480px) {
+      align-items: center;
+      
     }
   }
 }

@@ -2,21 +2,40 @@ $hero-text-color: #ffffff;
 
 .heroContainer {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../../assets/images/hero-img.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
+  @media screen and (max-width: 480px) {
+    background: url("../../assets/images/fondorojo.png");
+    background-position:right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+  }
+
   .heroTextContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
     height: 250px;
     position: relative;
     top: 40%;
     left: 50%;
+
+    @media screen and (max-width: 480px) {
+      position: relative;
+      top: auto;
+      left: auto;
+      height: auto;
+      justify-content: space-evenly;
+      align-items: center;
+      
+    }
 
     .heroTitle {
       font-size: 4rem;
@@ -25,6 +44,12 @@ $hero-text-color: #ffffff;
       font-family: "Poppins", sans-serif;
       font-weight: bold;
       line-height: 5rem;
+
+      @media screen and (max-width: 480px) {
+        width: auto;
+        font-size: 3rem;
+        padding: 10px 20px;
+      }
     }
     .heroText {
       font-size: 2.3rem;
@@ -33,6 +58,12 @@ $hero-text-color: #ffffff;
       color: $hero-text-color;
       width: 450px;
       white-space: pre-line;
+
+      @media screen and (max-width: 480px) {
+        width: auto;
+        font-size: 2rem;
+        padding: 10px 20px;
+      }
     }
   }
 }

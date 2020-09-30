@@ -19,12 +19,12 @@ export default function LastCourses() {
       </div>
       <div className="jobsMessage">
         <div className="topWrapper">
-          <img src={quotation} alt="comillas" />
+          <img className="comillas" src={quotation} alt="comillas" />
           <span className="textMessage">
             El diseño no es sólo lo que se ve y se siente. El diseño es cómo
             funciona
           </span>
-          <img src={quotation} alt="comillas" />
+          <img className="comillas" src={quotation} alt="comillas" />
         </div>
         <span className="sign">STEVE JOBS</span>
       </div>
