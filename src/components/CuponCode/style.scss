@@ -1,0 +1,82 @@
+.cuponCode {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+
+  @media screen and (max-width: 480px) {
+    width: auto;
+  }
+
+  .formContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
+    .inputText {
+      width: 60%;
+      font-size: 1rem;
+      padding: 5px 5px;
+      border-radius: 5px;
+      border: 1px solid black;
+      background: rgb(233, 233, 233);
+
+      @media screen and (max-width: 480px) {
+        width: 80%;
+      }
+    }
+    .btn-cupon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 38%;
+      height: 30px;
+      padding: 10px 10px;
+      font-size: 1rem;
+      border: 2px solid black;
+      border-radius: 10px;
+      background: #000000;
+      color: #ffffff;
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        border: 2px solid #e64041;
+      }
+      @media screen and (max-width: 480px) {
+        width: 80%;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .btn-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 30px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background: #e64041;
+    color: #ffffff;
+    box-shadow: 0 0 5px black;
+    transition: all 0.2s ease-out;
+    margin: 10px 0px;
+
+    &:hover {
+      background-color: black;
+      box-shadow: 0 0 10px #e64041;
+    }
+
+    @media screen and (max-width: 480px) {
+      margin: 0 auto;
+      margin-top: 5px;
+      width: 80%;
+    }
+  }
+}

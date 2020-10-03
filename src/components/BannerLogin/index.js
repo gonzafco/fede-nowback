@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.scss";
 
-export default function BannerLogin() {
-  const text = "TENER UNA MARCA MAL DISEÑADA ES AYUDAR A TU COMPETENCIA";
+export default function BannerLogin(props) {
+  console.log(props)
+  const {text} = props
   return (
     <div className="bannerLogin">
       <p className="textBanner">{text}</p>

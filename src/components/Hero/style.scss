@@ -8,7 +8,7 @@ $hero-text-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
 
-  @media screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     background: url("../../assets/images/fondorojo.png");
     background-position:right;
     background-size: cover;
@@ -27,7 +27,7 @@ $hero-text-color: #ffffff;
     top: 40%;
     left: 50%;
 
-    @media screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       position: relative;
       top: auto;
       left: auto;
@@ -45,7 +45,7 @@ $hero-text-color: #ffffff;
       font-weight: bold;
       line-height: 5rem;
 
-      @media screen and (max-width: 480px) {
+      @media only screen and (max-width: 480px) {
         width: auto;
         font-size: 3rem;
         padding: 10px 20px;
@@ -59,7 +59,7 @@ $hero-text-color: #ffffff;
       width: 450px;
       white-space: pre-line;
 
-      @media screen and (max-width: 480px) {
+      @media only screen and (max-width: 480px) {
         width: auto;
         font-size: 2rem;
         padding: 10px 20px;

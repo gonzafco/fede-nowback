@@ -1,0 +1,34 @@
+.priceCourse {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+
+  @media screen and (max-width: 480px) {
+    width: auto;
+  }
+
+  .boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
+    //margin: 0 auto;
+    .price {
+      font-size: 5rem;
+      font-family: "Oswald", sans-serif;
+      width: 50%;
+      text-align: center;
+
+
+      @media screen and (max-width: 480px) {
+        font-size: 6rem;
+      }
+    }
+    .payDecoration {
+      width: 50%;
+    }
+  }
+}

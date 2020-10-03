@@ -9,7 +9,7 @@ export default function Login() {
   return (
     <div>
       <HeroLogin />
-      <BannerLogin />
+      <BannerLogin text="TENER UNA MARCA MAL DISEÑADA ES AYUDAR A TU COMPETENCIA" />
       <RegisterForm />
     </div>  
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Provider as SessionProvider } from "./session/context";
@@ -9,13 +8,15 @@ import { Provider as SessionProvider } from "./session/context";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import BuyCourse from "./pages/BuyCourse"
 
 ReactDOM.render(
   <Router>
     {/* <SessionProvider> */}
-    <Route path="/" component={Home} />
+    <Route exact path="/" component={Home} />
     <Route exact path="/login" component={Login} />
-    <Route exact path="/registro" component={Register} /> */}
+    <Route exact path="/registro" component={Register} />
+    <Route exact path="/comprar" component={BuyCourse} />
     {/* </SessionProvider> */}
   </Router>,
   document.getElementById("root")
