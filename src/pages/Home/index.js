@@ -13,7 +13,6 @@ import Footer from '../../components/Footer'
 
 
 export default function Home() {
-  console.log("cargando el Page Home")
   return (
     <div>
       <NavBar /> 

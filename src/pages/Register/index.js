@@ -5,7 +5,6 @@ import BannerLogin from "../../components/BannerLogin";
 import RegisterForm from "../../components/RegisterForm";
 
 export default function Register() {
-  console.log("cargando el Page Register")
   return (
     <>
       <HeroLogin />

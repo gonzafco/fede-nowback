@@ -8,6 +8,12 @@ $hero-text-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
 
+  @media only screen and (min-width: 1281px) {
+    background: url("../../assets/images/Recursos-05.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   @media only screen and (max-width: 480px) {
     background: url("../../assets/images/fondorojo.png");
     background-position: right;
@@ -26,6 +32,8 @@ $hero-text-color: #ffffff;
     position: absolute;
     top: 40%;
     left: 55%;
+
+    @media only screen and (min-width: 1281px) {display: none;}
 
     @media only screen and (max-width: 480px) {
       position: relative;
