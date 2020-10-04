@@ -10,7 +10,7 @@ $hero-text-color: #ffffff;
 
   @media only screen and (max-width: 480px) {
     background: url("../../assets/images/fondorojo.png");
-    background-position:right;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -23,9 +23,9 @@ $hero-text-color: #ffffff;
     justify-content: space-around;
 
     height: 250px;
-    position: relative;
+    position: absolute;
     top: 40%;
-    left: 50%;
+    left: 55%;
 
     @media only screen and (max-width: 480px) {
       position: relative;
@@ -34,7 +34,11 @@ $hero-text-color: #ffffff;
       height: auto;
       justify-content: space-evenly;
       align-items: center;
-      
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      top: 35%;
+      left: 40%;
     }
 
     .heroTitle {
