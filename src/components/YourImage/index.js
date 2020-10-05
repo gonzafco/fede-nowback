@@ -12,7 +12,6 @@ export default function YourImage() {
 
   useEffect(() => {
     checkWidth(width);
-    console.log("hola");
   }, []);
   function checkWidth(width) {
     if (width > 900) {
